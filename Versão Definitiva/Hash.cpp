@@ -8,7 +8,7 @@
 #include <stdbool.h>
 
 // Tamanho do vetor
-#define SIZE 16
+#define SIZE 1571
 
 // Vetor de ponterios do tipo dataItem
 typedef dataItem *hash[SIZE];
