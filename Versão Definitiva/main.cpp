@@ -48,7 +48,7 @@ int main()
       //  printf("%s\n",dummy->city.cidade);
     }
   } while (dummy == NULL);
-  removerNovo(&No, target);
+  //removerNovo(&No, target);
   printf("\n ID: %i\n Estado: %s\n Cidade: %s\n Longitude: %.2f Latitude: %.2f\n\n", dummy->key, dummy->city.estado, dummy->city.cidade, dummy->GPS.lo, dummy->GPS.la);
 }
 
